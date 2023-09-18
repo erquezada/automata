@@ -97,6 +97,6 @@ This course covers theoretical computing models and the formal languages they ch
 
 ## Lecture 1
 
-Access [Lecture 1 - Finite Automata](lecture1.html).
+Access [Lecture 1 - Finite Automata](file:///Users/ericquezada/automata/Lecture%201/lecture1.html).
 
 For further information and specific course details, please refer to the corresponding sections in the syllabus.
