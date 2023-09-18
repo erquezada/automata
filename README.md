@@ -97,7 +97,9 @@ This course covers theoretical computing models and the formal languages they ch
 
 ## Lecture 1
 
-- [Lecture 1](https://github.com/erquezada/automata/blob/main/Lecture%201/home.html)
-)
+## Lecture 1
+
+- [Lecture 1 Video](https://github.com/erquezada/automata/blob/main/Lecture%201/home.html)
+
   
 For further information and specific course details, please refer to the corresponding sections in the syllabus.
