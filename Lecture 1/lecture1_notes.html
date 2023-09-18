@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary: What Are Finite Automata?</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure to link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Summary: What Are Finite Automata?</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>In this lecture, the professor discusses the concept of finite automata and their role in recognizing specific patterns or sequences of symbols. The primary problem they aim to solve is recognizing certain patterns before a computer compiles a program. Specifically, they need to identify strings of symbols as identifiers, integers, or other entities.</p>
+        </section>
+
+        <section>
+            <h2>Lecture Content</h2>
+            <!-- Insert the lecture content here -->
+            <p>The lecture provides an example to illustrate this concept:</p>
+            
+            <p>In a code snippet like "int value1a = -19; double number = +1.3;", the computer needs to recognize "value1a" as an identifier, "-19" as an integer, and "+1.3" as a real number.</p>
+            
+            <p>If an incorrect sequence is typed, such as "int value1a = -19x;", the computer should immediately recognize the error.</p>
+            
+            <p>To solve this problem, the lecture introduces the notion of finite automata. It uses a toy example with a simplified set of symbols (0, 1, and the letter 'a') to demonstrate how an automaton can distinguish between correct and incorrect sequences. The automaton has states and transitions based on the symbols it reads.</p>
+            
+            <p>Key points:</p>
+            <ul>
+                <li>States: The automaton starts in a start state (s) and transitions between states based on the symbols it reads.</li>
+                <li>Transitions: Transitions occur as symbols are read, and they determine whether the current sequence is valid.</li>
+                <li>Final State: The automaton has a final state (i) that confirms a correct sequence.</li>
+            </ul>
+            
+            <p>The lecture emphasizes that a final state indicates that the sequence is valid, and if the automaton ends in the start state (s) or an error state (e), the sequence is not valid.</p>
+            
+            <p>A graphical representation of the automaton is introduced, showing states, transitions, the starting state, and final states. The automaton is called a finite automaton, and the lecture clarifies the plural form as "automata" (not automatons).</p>
+            
+            <p>The lecture also mentions the concept of a "sink state," which is a state from which it is impossible to escape. In the context of the automaton, this state represents an error or an invalid sequence.</p>
+            
+            <p>Two examples are provided to illustrate how the automaton recognizes valid and invalid sequences:</p>
+            
+            <p>Valid Example: The word "101" is traced through the automaton, and it reaches the final state, indicating that "101" is a valid unsigned binary integer.</p>
+            
+            <p>Invalid Example: The word "1a1" is traced through the automaton, and it ends in an error state (e), indicating that "1a1" is not a valid integer.</p>
+            
+            <p>The lecture encourages practice with different examples to further understand how the automaton works.</p>
+            
+            <p>Overall, this lecture introduces the concept of finite automata as a fundamental tool for recognizing patterns or sequences in computer science, specifically in the context of identifying valid sequences of symbols.</p>
+        </section>
+
+        <!-- Add a link to lecture1.html here -->
+        <section>
+            <h2>View Full Lecture</h2>
+            <p>For the complete lecture, you can <a href="lecture1.html">view Lecture 1 - Finite Automata</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Eric Quezada</p>
+    </footer>
+</body>
+</html>

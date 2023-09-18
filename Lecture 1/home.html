@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 3350 Fall 2023 Syllabus</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to your CSS file if needed -->
+</head>
+<body>
+    <header>
+        <h1>CS 3350 Automata, Computability, and Formal Languages</h1>
+        <h2>Fall 2023 Syllabus</h2>
+    </header>
+
+    <section>
+        <h2>Class Information</h2>
+        <ul>
+            <li><strong>Class Time:</strong> Mondays and Wednesdays 10:30-11:50 am</li>
+            <li><strong>Room:</strong> CCSB G.0208</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Prerequisites</h2>
+        <p><strong>General Prerequisites:</strong> CS 2302 "Data Structures" and either Discrete Mathematics or Discrete Structures, both with grades C or higher.</p>
+        <p><strong>Alternative Prerequisites:</strong> CS 2401 "Elementary Data Structures and Algorithms" and either Discrete Mathematics or Discrete Structures, both with grades B or higher.</p>
+    </section>
+
+    <section>
+        <h2>Instructor</h2>
+        <p><strong>Instructor:</strong> Vladik Kreinovich</p>
+        <p><strong>Email:</strong> vladik@utep.edu</p>
+        <p><strong>Office:</strong> CCSB 3.0404</p>
+        <p><strong>Office Phone:</strong> (915) 747-6951</p>
+        <p><strong>Office Hours:</strong> Mondays and Wednesdays 12-1 pm, 2-3 pm, or by appointment</p>
+        <p>If you want to come during the scheduled office hours, there is no need to schedule an appointment. If you cannot come during the instructor's scheduled office hours, please schedule an appointment using the <a href="/vladik/appointments.html" target="_blank">instructor's appointments page</a> to find an available time, and send an email to vladik@utep.edu indicating your preferred day and time for a meeting.</p>
+        <p>If a meeting is scheduled and you cannot attend, please inform the instructor as soon as possible.</p>
+    </section>
+
+    <section>
+        <h2>Instructional Assistant (IA)</h2>
+        <p><strong>IA:</strong> Garab Dorji</p>
+        <p><strong>Email:</strong> gkdorji@miners.utep.edu</p>
+        <p><strong>Office Hours:</strong> Mondays and Thursdays 8:30-10:30 am</p>
+        <p><strong>Office:</strong> CCSB G.0512</p>
+    </section>
+
+    <section>
+        <h2>Instructor of Another Section of Automata</h2>
+        <p><strong>Instructor:</strong> Luc Longpre</p>
+        <p><strong>Time:</strong> Tuesdays and Thursdays 1:30-2:50 pm</p>
+        <p><strong>Email:</strong> longpre@utep.edu</p>
+    </section>
+
+    <section>
+        <h2>Course Objectives</h2>
+        <p>Theoretical computing models and the formal languages they characterize: Finite state machines, regular expressions, pushdown automata, context-free grammars, Turing machines and computability. Capabilities and limitations of each model, and applications including lexical analysis and parsing.</p>
+    </section>
+
+    <section>
+        <h2>Major Topics Covered in the Course</h2>
+        <ul>
+            <li>Regular languages, finite automata (FA), non-deterministic FA (NFA)</li>
+            <li>Context-free languages, pushdown automata (PDA)</li>
+            <li>Parsing, normal forms, ambiguity</li>
+            <li>Pumping lemmas and closure properties</li>
+            <li>Turing machines and other equivalent models</li>
+            <li>Decidable languages, non-decidable languages, recognizable languages, Chomsky hierarchy</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Learning Outcomes</h2>
+        <h3>Level 1: Knowledge and Comprehension</h3>
+        <p>Level 1 outcomes are those in which the student has been exposed to the terms and concepts at a basic level and can supply basic definitions. The material has been presented only at a superficial level.</p>
+        <ul>
+            <li>1a. Describe implications of Church-Turing thesis.</li>
+            <li>1b. Describe problems for which an algorithm exists, and problems for which there are no algorithms (non-recursive, non-recursively enumerable languages) and describe the implications of such results.</li>
+            <li>1c. Describe and explain the diagonalization process as used in proofs about computability.</li>
+            <li>1d. Describe the difference between feasible and non-feasible algorithms, describe the limitations of the current formalization of feasibility as polynomial-time.</li>
+            <li>1e. Describe the main ideas behind the concepts of NP and NP-hardness, know examples of NP-hard problems.</li>
+        </ul>
+
+        <h3>Level 2: Application and Analysis</h3>
+        <p>Level 2 outcomes are those in which the student can apply the material in familiar situations, e.g., can work a problem of familiar structure with minor changes in the details.</p>
+        <ul>
+            <li>2a. Convert a non-deterministic finite automaton into an equivalent deterministic finite automaton.</li>
+            <li>2b. Convert a non-deterministic finite automaton into an equivalent regular expression.</li>
+            <li>2c. Convert a regular expression into an equivalent finite automaton.</li>
+            <li>2d. Construct a regular expression for a regular language.</li>
+            <li>2e. Convert a context-free grammar into an equivalent pushdown automaton.</li>
+            <li>2f. Construct a context-free grammar for a given context-free language.</li>
+            <li>2g. Design an algorithm for a machine model to simulate another model.</li>
+            <li>2h. Build simple Turing machines.</li>
+            <li>2i. Prove formally properties of languages or computational models.</li>
+            <li>2j. Apply a parsing algorithm.</li>
+            <li>2k. Build a parse tree or a derivation from a context-free grammar.</li>
+            <li>2l. Use the closure properties in arguments about languages.</li>
+        </ul>
+
+        <h3>Level 3: Synthesis and Evaluation</h3>
+        <p>Level 3 outcomes are those in which the student can apply the material in new situations. This is the highest level of mastery.</p>
+        <ul>
+            <li>3a. Compare regular, context-free, recursive, and recursively enumerable languages.</li>
+            <li>3b. Compare finite automata, pushdown automata, and Turing machines.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Textbook</h2>
+        <p><strong>Textbook:</strong> Introduction to the Theory of Computation, by Michael Sipser (all editions are OK). This book is available at the bookstore and through major online book retailers, and you are expected to acquire a copy for your use in this course. Photocopied textbooks are illegal and their use will not be tolerated.</p>
+    </section>
+
+    <!-- Link to Lecture 1 -->
+    <section>
+        <h2>Lecture 1</h2>
+        <p>Access <a href="lecture1.html">Lecture 1 - Finite Automata</a>.</p>
+    </section>
+</body>
+</html>
