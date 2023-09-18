@@ -13,7 +13,7 @@ This repository contains the HTML source code for the syllabus of the CS 3350 Au
 - [Major Topics Covered in the Course](#major-topics-covered-in-the-course)
 - [Learning Outcomes](#learning-outcomes)
 - [Textbook](#textbook)
-- [Lecture 1](#lecture-1)
+
 
 ## Class Information
 
@@ -95,8 +95,6 @@ This course covers theoretical computing models and the formal languages they ch
 
 - **Textbook:** Introduction to the Theory of Computation, by Michael Sipser (all editions are OK). This book is available at the bookstore and through major online book retailers, and you are expected to acquire a copy for your use in this course. Photocopied textbooks are illegal and their use will not be tolerated.
 
-## Lecture 1
 
-Access [Lecture 1 - Finite Automata](file:///Users/ericquezada/automata/Lecture%201/lecture1.html).
 
 For further information and specific course details, please refer to the corresponding sections in the syllabus.
